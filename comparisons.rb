@@ -94,8 +94,11 @@ finished_homework = false
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
 is_hungry && finished_homework
+# returins true
+
 # Determine if the user is hungry or has completed their homework
 is_hungry || finished_homework
+#returns true
 
 loves_to_play = true
 loves_dog_park = false
@@ -104,15 +107,25 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+loves_to_play&&loves_treats
+# returns true
 
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play&&loves_dog_park
+#returns false
 
 # Determine if the dog loves to play or loves the dog park
+loves_to_play||loves_dog_park
+#returns true
 
 
 # Determine if the dog loves to play and is a puppy
+if age<=1 then puppy=true else puppy=false end
+loves_to_play&&puppy
+#returns true
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: final line of code evaluated if the dog loves to play and is a puppy.
+# If the dog's age is less than or equal to 1, then it is a puppy. if not, it
+# is not a puppy. returns true.
