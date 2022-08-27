@@ -61,19 +61,19 @@ puts "Is number_students less than or equal to 21?", number_students<=21
 
 puts 4 < 9
 #YOU DO: Explain.
-# Prints the evaluation of equation 4 < 9. Returns true
+# Prints the result of comparison 'is 4 less than 9'. Returns true
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-# Prints the evaluation of equation 4 < books. books is an empty variable with
-# the value of 0 or nil. Returns true
+# Prints the evaluation of comparison 'is 4 less than books'. books is an empty
+# variable with the value of 0 or nil. Returns false
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-# Prints the evaluation of equation friends > siblings. Returns true
+# Prints the evaluatio of comparison 'is friends greater than siblings?'. Returns true
 
 attendees = 9
 meals = 8
