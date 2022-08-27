@@ -14,3 +14,6 @@
 ###### I will practice with researching examples.
 1. What questions do you still have? How will you get the answers you need?
 ###### I have no questions at the moment. If I do, google.
+###### That's not true, I have a couple questions. What are best practices when
+###### using git and working on projects? How do I change the main git repository?
+###### I'll google these.
